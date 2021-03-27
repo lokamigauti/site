@@ -8,7 +8,7 @@ categories:
 tags:
   - R
   - R Blogdown
-draft: yes
+draft: no
 ---
 
 # Hello world!
