@@ -5,4 +5,4 @@ title: About me
 
 ![Author photo](token_2(3).png)
 
-Ph.D. candidade in meteorology in University of São Paulo. Main work themes are air pollution, environmental magnetism and low-cost sensors design. My hobbies are music, statistics and game design.
+Ph.D. candidate in meteorology in University of São Paulo. Main work themes are air pollution, environmental magnetism and low-cost sensors design. My hobbies are music, statistics and game design.
