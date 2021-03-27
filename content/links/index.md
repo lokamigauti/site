@@ -49,4 +49,4 @@ editor_options:
 1.  [blogdown: Creating Websites with R
     Markdown](https://bookdown.org/yihui/blogdown/) like this site.
 
-2.  [https://r4ds.had.co.nz/](R for Data Science).
+2.  [R for Data Science](https://r4ds.had.co.nz/).
