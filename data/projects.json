@@ -1,14 +1,14 @@
 {
   "list": [
     {
-      "name":"Hugo",
-      "url":"https://gohugo.io/",
-      "desc":"The world’s fastest framework for building websites."
+      "name":"SOPRO",
+      "url":"http://sopro.web.ua.pt/",
+      "desc":"Ph.D. main project. Particulate matter sources description, comparing Brazilian and Portuguese data."
     },
     {
-      "name":"Hugo Themes",
-      "url":"https://github.com/gohugoio/hugoThemes",
-      "desc":"A curated directory of Hugo themes"
+      "name":"Metroclima",
+      "url":"http://www.metroclima.iag.usp.br/",
+      "desc":"Volunteer work. Greenhouse gases analysis in São Paulo, Brazil."
     }
   ]
 }
