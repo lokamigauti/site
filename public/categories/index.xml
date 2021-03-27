@@ -2,38 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Leonardo Yoshiaki Kamigauti</title>
-    <link>https://lkamigauti.netlify.app/categories/</link>
+    <link>https://www.lkamigauti.com/categories/</link>
     <description>Recent content in Categories on Leonardo Yoshiaki Kamigauti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Leonardo Yoshiaki Kamigauti</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://lkamigauti.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>R</title>
-      <link>https://lkamigauti.netlify.app/categories/r/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://lkamigauti.netlify.app/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>https://lkamigauti.netlify.app/categories/notes/</link>
-      <pubDate>Sat, 06 Jun 2020 09:00:00 +0000</pubDate>
-      
-      <guid>https://lkamigauti.netlify.app/categories/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>life</title>
-      <link>https://lkamigauti.netlify.app/categories/life/</link>
-      <pubDate>Sat, 22 Oct 2016 16:56:54 +0000</pubDate>
-      
-      <guid>https://lkamigauti.netlify.app/categories/life/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>Leonardo Yoshiaki Kamigauti</copyright><atom:link href="https://www.lkamigauti.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
