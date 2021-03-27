@@ -52,7 +52,7 @@ weight = 5
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = true # show tags overview by default.
+  tagsOverview = false # show tags overview by default.
   showProjectsList = true # show projects list by default (if projects data file exists).
   # projectsUrl = "https://github.com/gohugoio" # title link for projects list
 
@@ -77,3 +77,9 @@ weight = 5
   [[params.social]]
     name = "email"
     link = "leonardo.kamigauti@usp.br"  # no need for "mailto:" in the head
+  [[params.social]]
+    name = "orcid"
+    link = "https://orcid.org/0000-0001-5421-8193"
+  [[params.social]]
+    name = "researchgate"
+    link = "https://orcid.org/0000-0001-5421-8193"

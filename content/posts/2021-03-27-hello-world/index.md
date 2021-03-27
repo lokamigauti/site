@@ -29,6 +29,8 @@ This are the resources used by me to understand the R Blogdown:
 
 -   CradleToGraveR's [video tutorial](https://www.youtube.com/watch?v=fq_AYx874gs&t=819s) about [Netlify](https://www.netlify.com) integration with R Blogdown.
 
--   And [this](https://github.com/rstudio/blogdown/issues/114) issue solved by maurolepore
+-   [This](https://github.com/rstudio/blogdown/issues/114) issue solved by maurolepore
+
+-   Alison Hill's post about [R Blogdown in 2020](https://alison.rbind.io/post/new-year-new-blogdown/#step-4-create-content)
 
 Hugs and have fun!
