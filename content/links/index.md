@@ -16,6 +16,8 @@ editor_options:
 -   [Coercivity unmix
     software](http://shinyapps.its.carleton.edu/max-unmix/) \[online\]
 -   My lab's [GitHub](https://github.com/lapat-iag-usp)
+-   What color is
+    [\#171195](https://www.webfx.com/web-design/hex-to-rgb/)?
 
 ## To read list:
 
@@ -69,3 +71,5 @@ editor_options:
 ## R:
 
 -   [The R Graph Gallery](https://www.r-graph-gallery.com/index.html)
+
+-   [jmv R package](https://www.jamovi.org/jmv/index.html)
