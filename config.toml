@@ -1,4 +1,4 @@
-baseURL = "https://www.lkamigauti.com"
+baseURL = "https://lkamigauti.netlify.app"
 languageCode = "en-us"
 title = "Leonardo Yoshiaki Kamigauti"
 theme = "hugo-theme-cactus"
