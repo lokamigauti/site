@@ -18,13 +18,16 @@ editor_options:
 -   My lab's [GitHub](https://github.com/lapat-iag-usp)
 -   What color is
     [\#171195](https://www.webfx.com/web-design/hex-to-rgb/)?
+-   Read
+    [this](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+    before update your R or Python
 
 ## To read list:
 
 1.  Gonet, T., Maher, B. A., & Kukutschová, J. (2021). Source
     apportionment of magnetite particles in roadside airborne
-    particulate
-    matter. *Science of the Total Environment*, *752*, 141828. DOI:
+    particulate matter. *Science of the Total Environment*,
+    *752*, 141828. DOI:
     [10.1016/j.scitotenv.2020.141828](https://doi.org/10.1016/j.scitotenv.2020.141828 "Persistent link using digital object identifier")
 2.  Qinghua Zhang, Dawei Lu, Dingyi Wang, Xuezhi Yang, Peijie Zuo, Hang
     Yang, Qiang Fu, Qian Liu, and Guibin Jiang (2020) Environmental
