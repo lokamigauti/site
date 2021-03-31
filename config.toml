@@ -82,4 +82,7 @@ weight = 5
     link = "https://orcid.org/0000-0001-5421-8193"
   [[params.social]]
     name = "researchgate"
-    link = "https://orcid.org/0000-0001-5421-8193"
+    link = "https://www.researchgate.net/profile/Leonardo-Kamigauti"
+  [[params.social]]
+    name = "google"
+    link = "https://scholar.google.com/citations?view_op=search_authors&mauthors=kamigauti&hl=pt-BR&oi=ao"

@@ -1,6 +1,11 @@
 {
   "list": [
     {
+      "name":"AIRGEO",
+      "url":"http://www.master.iag.usp.br/airgeo/en/index.html",
+      "desc":"Ph.D. main project. Citizens' empowerment through biomonitoring of air quality."
+    },
+    {
       "name":"SOPRO",
       "url":"http://sopro.web.ua.pt/",
       "desc":"Ph.D. main project. Particulate matter sources description, comparing Brazilian and Portuguese data."
