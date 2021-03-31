@@ -33,6 +33,12 @@ editor_options:
     Yang, Qiang Fu, Qian Liu, and Guibin Jiang (2020) Environmental
     Science & Technology *54* (15), 9274-9284 DOI:
     [10.1021/acs.est.0c01841](https://pubs.acs.org/doi/abs/10.1021/acs.est.0c01841?casa_token=6bQJ9NDe6c4AAAAA:2Airmk-lTb3TE-R7-PcPn9BBF6leX10XhBknl7zwUG3ca_owJ-JrCrxyWAPV-t6C9rDRTFB6RXq4_Wvc)
+3.  Mathias, G. L., Roud, S. C., Chiessi, C. M., Campos, M. C., Dias, B.
+    B., Santos, T. P., ... & Maher, B. A. A multi‐proxy approach to
+    unravel late Pleistocene sediment flux and bottom water conditions
+    in the Western South Atlantic Ocean. *Paleoceanography and
+    Paleoclimatology*, e2020PA004058. DOI:
+    [10.1029/2020PA004058](https://doi.org/10.1029/2020PA004058)
 
 ## Recommended articles:
 
