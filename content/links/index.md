@@ -21,6 +21,7 @@ editor_options:
 -   Read
     [this](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
     before update your R or Python
+-   Which Python library do I use do [plot](https://pythonplot.com/)?
 
 ## To read list:
 
