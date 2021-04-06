@@ -8,7 +8,7 @@ categories:
 tags:
   - R
   - R Blogdown
-draft: no
+draft: yes
 ---
 
 # Here comes a image
