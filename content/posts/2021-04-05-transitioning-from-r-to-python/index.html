@@ -1,0 +1,59 @@
+---
+title: "Transitioning from R to Python"
+author: "Kamigauti"
+date: '2021-04-05'
+slug: []
+categories: programming
+tags:
+- R
+- Python
+draft: yes
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="why-python" class="section level1">
+<h1>Why Python?</h1>
+<p>That question was answered a thousand times better than me. But, here comes the highlights and my personal motivations.</p>
+<div id="long-live-the-python" class="section level2">
+<h2>Long live the Python</h2>
+<p>Python have a giant scientific community, and so Fortran or R. What makes Python special is the other communities using it. It guarantee a long live and support to the language.</p>
+<p>There is a list of Python uses by <a href="https://www.upgrad.com/blog/python-applications-in-real-world/#2_Game_Development">Upgrad</a>:</p>
+<ol style="list-style-type: decimal">
+<li>Web Development</li>
+<li>Game Development</li>
+<li><strong>Scientific and Numeric Applications</strong></li>
+<li>Artificial Intelligence and Machine Learning</li>
+<li>Desktop GUI</li>
+<li>Software Development</li>
+<li>Enterprise-level/Business Applications</li>
+<li>Education programs and training courses</li>
+<li>Language Development</li>
+<li>Operating Systems</li>
+<li>Web Scraping Applications</li>
+<li>Image Processing and Graphic Design Applications</li>
+</ol>
+<p>Each one of this items has a whole community using and supporting Python. In special, AI/ML and Business brings strong economic motivations to the language support. This list also shows the “base” Python`s flexibility.</p>
+</div>
+<div id="python-and-science" class="section level2">
+<h2>Python and science</h2>
+<p>Python is <a href="https://opensource.org/osd">open source</a>, which matches with the <a href="https://www.fosteropenscience.eu/content/what-open-science-introduction">open science</a> philosophy (like this site, read more <a href="https://www.americanscientist.org/blog/macroscope/the-world-of-science-blogging">here</a>). Its</p>
+<pre class="r"><code># see the categories here: https://bit.ly/3dz6UIt
+
+keywordslist &lt;- c(&quot;python&quot;, &quot;r &quot;, &quot;fortran&quot;)
+
+gtrendsR::gtrends(keywordslist,
+        category = 174,
+        time = &quot;2010-01-01 2020-01-01&quot;,
+        onlyInterest = T)$interest_over_time  %&gt;%
+  as.data.frame() %&gt;%
+  mutate(interest = hits) %&gt;%
+  ggplot(aes(x = date, y = interest, color = keyword)) +
+  geom_line() +
+  ggtitle(&quot;Interest over time in Google&#39;s &#39;Science&#39; category&quot;) +
+  theme_minimal() +
+  theme(text = element_text(family = &quot;JetBrains Mono&quot;, size = 22))</code></pre>
+<p>{{% figure src="../resources/trans-i-1.png" %}}</p>
+</div>
+</div>

@@ -47,7 +47,8 @@ font_add(family = "JetBrains Mono",
 showtext_auto()
 ```
 
-```{r, echo = FALSE, results = 'hide', message = FALSE}
+
+```{r code, eval=FALSE}
 # see the categories here: https://bit.ly/3dz6UIt
 
 keywordslist <- c("python", "r ", "fortran")
@@ -63,4 +64,8 @@ gtrendsR::gtrends(keywordslist,
   ggtitle("Interest over time in Google's 'Science' category") +
   theme_minimal() +
   theme(text = element_text(family = "JetBrains Mono", size = 22))
+```
+
+```{r, echo = FALSE}
+blogdown::shortcode("figure", src = "../resources/trans-i-1.png")
 ```
