@@ -50,10 +50,7 @@ Each one of this items has a whole community using and supporting Python. In spe
 Python is the most popular programming language science. It's [open source](https://opensource.org/osd), which matches with the [open science](https://www.fosteropenscience.eu/content/what-open-science-introduction) philosophy (like this site, read more [here](https://www.americanscientist.org/blog/macroscope/the-world-of-science-blogging)).
 
 <details>
-
-<summary> Code
-
-</summary>
+<summary>Code</summary>
 
 ```{r code, eval=FALSE}
 # see the categories here: https://bit.ly/3dz6UIt
@@ -72,7 +69,6 @@ gtrendsR::gtrends(keywordslist,
   theme_minimal() +
   theme(text = element_text(family = "JetBrains Mono", size = 22))
 ```
-
 </details>
 
 ```{r, echo = FALSE}
