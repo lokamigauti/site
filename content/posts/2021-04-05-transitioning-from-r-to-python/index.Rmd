@@ -77,7 +77,7 @@ blogdown::shortcode("figure", src = "../resources/trans-i-1.png")
 
 This popularity can be attributed mostly by its [design focused in a easy and intuitive use](https://qr.ae/pG1D2P). It's perfect for scientists as our main task is not programming, but to interpret the results of the program. Its grammar is intuitive for English readers, so any scientist can understand the basic of the code.
 
-The support to Object Oriented Programming (OOP), [Functional Programming](https://www.youtube.com/watch?v=0if71HOyVjY) (FP) and Procedutal Programming (PP) is another aspect that I judge noteworthy. Mostly tutorials and content about Python in the internet are for developers. So the OOP is a word in the mouth of ever Python user. However, most scientists are more familiar with PP and FP. Luckily, most of the exploratory data analysis are based in PP.
+The support to Object Oriented Programming (OOP), [Functional Programming](https://www.youtube.com/watch?v=0if71HOyVjY) (FP) and Procedural Programming (PP) is another aspect that I judge noteworthy. Mostly tutorials and content about Python in the internet are for developers. So the OOP is a word in the mouth of ever Python user. However, most scientists are more familiar with PP and FP. Luckily, most of the exploratory data analysis are based in PP.
 
 # Preparation phase
 
