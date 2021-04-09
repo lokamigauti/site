@@ -26,7 +26,7 @@ That question was answered a thousand times better than me. But, here comes the 
 
 ## Long live the Python
 
-Python have a giant scientific community, and so Fortran or R. What makes Python special is the other communities using it. It guarantee a long live and support to the language.
+Python have a giant scientific community, and so Fortran or R. What makes Python special is the other communities using it. It guarantee a long life and support to the language.
 
 There is a list of Python uses by [Upgrad](https://www.upgrad.com/blog/python-applications-in-real-world/#2_Game_Development):
 
@@ -77,7 +77,7 @@ blogdown::shortcode("figure", src = "../resources/trans-i-1.png")
 
 This popularity can be attributed mostly by its [design focused in a easy and intuitive use](https://qr.ae/pG1D2P). It's perfect for scientists as our main task is not programming, but to interpret the results of the program. Its grammar is intuitive for English readers, so any scientist can understand the basic of the code.
 
-The support to Object Oriented Programming (OOP), [Functional Programming](https://www.youtube.com/watch?v=0if71HOyVjY) (FP) and Procedural Programming (PP) is another aspect that I judge noteworthy. Mostly tutorials and content about Python in the internet are for developers. So the OOP is a word in the mouth of ever Python user. However, most scientists are more familiar with PP and FP. Luckily, most of the exploratory data analysis are based in PP.
+The support to Object Oriented Programming (OOP), [Functional Programming](https://www.youtube.com/watch?v=0if71HOyVjY) (FP) and Procedural Programming (PP) is another aspect that I judge noteworthy. Mostly tutorials and content about Python in the internet are for developers. So the OOP is a word in the mouth of every Python user. However, most scientists are more familiar with PP and FP. Luckily, most of the exploratory data analysis are based in PP.
 
 # Preparation phase
 
@@ -85,32 +85,32 @@ What I need to do before transitioning?
 
 ## Psycological aspects
 
-Changing a programming language is like move to another country. Every thing that you thought were fundamental is different in some way. It causes a silent fear manifested as postpones in your transition. So you need the following aspects to start and maintain the process:
+Changing a programming language is like moving to another country. All the things that you thought were fundamental is different in some way. It causes a silent fear, that manifests itself as the postponing in your transition. So you need the following aspects to start and maintain the process:
 
 1.  To feel inspired by the "Why"
 2.  A good tutorial to be an ice breaker
-3.  A urgency to change
+3.  An urgency to change
 4.  A long-term project in your old language
 
 ### Inspiration
 
-Python is beautiful. I'm a good nerd and appreciate a pretty code. And I know [its not necessarily implies in a good code](https://qntm.org/clean), but in the world of science, it can make a code [FAIR](https://www.nature.com/articles/sdata201618). The sense of community of Python is part of its beauty. The development of huge libraries based on huge libraries based on Python may seem problematic at fist glance, but it allows me to use them together and synergistically (who never adapted an obscure function to be dplyr-compatible?).
+Python is beautiful. I'm a good nerd and appreciate a pretty code. And I know [pretty not necessarily implies in good code](https://qntm.org/clean), but in the world of science, it can make a code [FAIR](https://www.nature.com/articles/sdata201618). The sense of community of Python is part of its beauty. The development of huge libraries based on huge libraries based on Python may seem problematic at fist glance, but it allows me to use them together and synergistically (who never adapted an obscure function to be dplyr-compatible?).
 
 So, if you love an aspect of Python, embrace it. You will need to remember that love in the near future.
 
 ### Learning support
 
-Every computational tool have a "get started" item in the manual nowadays. We live in an anxiety inducer society, so we need to see results easy and fast. And a good way to "get started" with python is to watch some content about the basics until the OOP aspect. It's a relief when little "xenothings" like tuples and dicts behave as expected. So you can get confidence to explore further. Cookbooks are recommended too. But I wouldn't recommend to take a Pandas hands-on as your first contact with Python. You may succeed to use it, however, things can get unstable as you get the lead on your analysis. The basics will charge you later.
+Every computational tool have a "get started" item in the manual nowadays. We live in an anxiety inducer society, so we need to see results fast and easy. And a good way to "get started" with python is to watch some content about the basics until the OOP aspect. It's a relief when little "xenothings" like tuples and dicts behave as expected. So you can get confidence to explore further. Cookbooks are recommended too. But I wouldn't recommend to take a Pandas hands-on as your first contact with Python. You may succeed to use it, but things can get unstable as you get the lead on your analysis. I'll regret if you jump over the basics soon than expected.
 
 ### Urgency and commitment
 
-It's easy to return to your comfort zone. You certainly have a lot of demands, as your life don't wait you to finish your transition. It is harsh, but you need a "need" to use Python. And with R (or Matlab, or Stata, Jamovi, you name it) you can do the same as you would do in Pyhton, but faster. So, the "need" needs to came from yourself. Make a commitment to only use Python in future projects from now on. The magic is in define what is a current project and what is a future one.
+It's easy to return to your comfort zone. You certainly have a lot of demands, as your life don't wait for you to finish your transition. It is harsh, but you need a "need" to use Python. And with R (or Matlab, or Stata, Jamovi, you name it) you can do the same as you would do in Pyhton, but faster. So, the "need" needs to came from yourself. Make a commitment to only use Python in future projects from now on. The trick is defining what is a current project and what is a future one.
 
 I define current project as "codes in current development or planned to interact directly with that ones". Every single unplanned analysis or application will be made in Python. You probably made the same in the past, maybe unconsciously. Now is not different.
 
 ### Old language projects
 
-Immerse in a new language lead us to re-signify many concepts. So we tend to forget how to use our previous language (hello C and processing). Old long term projects can aid us to remember them, and most importantly, let us guilty-free of that "abandonment" feel.
+Immersing in a new language lead us to re-signify many concepts. So we tend to forget how to use our previous language (hello C and processing). Old long term projects can aid us to remember them, and most importantly, leave us guilty-free of that "abandonment" feel.
 
 ## Resources
 
@@ -189,7 +189,7 @@ Fruits List after function call - ['apple', 'orange'] id - 2611623765504
 
 Its a solution for the potential problems mentioned. We cant state `1 = 2` because integers are immutable objects. Once you create a immutable object, its state cannot be modified. The basic immutable objects in Python are ints, floats, strings, tuples, bools and frozensets. You can use these objects to secure your dataset against unwilling alterations and side effects.
 
-# Final thougts
+# Final thoughts
 
 Transitioning to a new language demands time so you need to ponder if it really pays the time. Interesting, the things that takes more time to learn are the most familiar and basic ones.
 
