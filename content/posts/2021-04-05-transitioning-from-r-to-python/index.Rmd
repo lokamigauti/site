@@ -1,5 +1,5 @@
 ---
-title: "Transitioning from R to Python"
+title: "Transitioning from R to Python I"
 author: "Kamigauti"
 date: '2021-04-05'
 slug: []
@@ -7,8 +7,18 @@ categories: programming
 tags:
 - R
 - Python
-draft: yes
+draft: no
 ---
+
+```{r, message = FALSE, echo = FALSE}
+library(tidyverse)
+library(showtext)
+font_add(family = "JetBrains Mono",
+         regular = "JetBrainsMono-Regular.ttf")
+showtext_auto()
+```
+
+This series will accompany me as I re-learn Python. This post covers the basic: why, preparation and getting started.
 
 # Why Python?
 
@@ -37,16 +47,13 @@ Each one of this items has a whole community using and supporting Python. In spe
 
 ## Python and science
 
-Python is [open source](https://opensource.org/osd), which matches with the [open science](https://www.fosteropenscience.eu/content/what-open-science-introduction) philosophy (like this site, read more [here](https://www.americanscientist.org/blog/macroscope/the-world-of-science-blogging)). Its
+Python is the most popular programming language science. It's [open source](https://opensource.org/osd), which matches with the [open science](https://www.fosteropenscience.eu/content/what-open-science-introduction) philosophy (like this site, read more [here](https://www.americanscientist.org/blog/macroscope/the-world-of-science-blogging)).
 
-```{r, message = FALSE, echo = FALSE}
-library(tidyverse)
-library(showtext)
-font_add(family = "JetBrains Mono",
-         regular = "JetBrainsMono-Regular.ttf")
-showtext_auto()
-```
+<details>
 
+<summary> Code
+
+</summary>
 
 ```{r code, eval=FALSE}
 # see the categories here: https://bit.ly/3dz6UIt
@@ -66,6 +73,128 @@ gtrendsR::gtrends(keywordslist,
   theme(text = element_text(family = "JetBrains Mono", size = 22))
 ```
 
+</details>
+
 ```{r, echo = FALSE}
 blogdown::shortcode("figure", src = "../resources/trans-i-1.png")
 ```
+
+This popularity can be attributed mostly by its [design focused in a easy and intuitive use](https://qr.ae/pG1D2P). It's perfect for scientists as our main task is not programming, but to interpret the results of the program. Its grammar is intuitive for English readers, so any scientist can understand the basic of the code.
+
+The support to Object Oriented Programming (OOP), [Functional Programming](https://www.youtube.com/watch?v=0if71HOyVjY) (FP) and Procedutal Programming (PP) is another aspect that I judge noteworthy. Mostly tutorials and content about Python in the internet are for developers. So the OOP is a word in the mouth of ever Python user. However, most scientists are more familiar with PP and FP. Luckily, most of the exploratory data analysis are based in PP.
+
+# Preparation phase
+
+What I need to do before transitioning?
+
+## Psycological aspects
+
+Changing a programming language is like move to another country. Every thing that you thought were fundamental is different in some way. It causes a silent fear manifested as postpones in your transition. So you need the following aspects to start and maintain the process:
+
+1.  To feel inspired by the "Why"
+2.  A good tutorial to be an ice breaker
+3.  A urgency to change
+4.  A long-term project in your old language
+
+### Inspiration
+
+Python is beautiful. I'm a good nerd and appreciate a pretty code. And I know [its not necessarily implies in a good code](https://qntm.org/clean), but in the world of science, it can make a code [FAIR](https://www.nature.com/articles/sdata201618). The sense of community of Python is part of its beauty. The development of huge libraries based on huge libraries based on Python may seem problematic at fist glance, but it allows me to use them together and synergistically (who never adapted an obscure function to be dplyr-compatible?).
+
+So, if you love an aspect of Python, embrace it. You will need to remember that love in the near future.
+
+### Learning support
+
+Every computational tool have a "get started" item in the manual nowadays. We live in an anxiety inducer society, so we need to see results easy and fast. And a good way to "get started" with python is to watch some content about the basics until the OOP aspect. It's a relief when little "xenothings" like tuples and dicts behave as expected. So you can get confidence to explore further. Cookbooks are recommended too. But I wouldn't recommend to take a Pandas hands-on as your first contact with Python. You may succeed to use it, however, things can get unstable as you get the lead on your analysis. The basics will charge you later.
+
+### Urgency and commitment
+
+It's easy to return to your comfort zone. You certainly have a lot of demands, as your life don't wait you to finish your transition. It is harsh, but you need a "need" to use Python. And with R (or Matlab, or Stata, Jamovi, you name it) you can do the same as you would do in Pyhton, but faster. So, the "need" needs to came from yourself. Make a commitment to only use Python in future projects from now on. The magic is in define what is a current project and what is a future one.
+
+I define current project as "codes in current development or planned to interact directly with that ones". Every single unplanned analysis or application will be made in Python. You probably made the same in the past, maybe unconsciously. Now is not different.
+
+### Old language projects
+
+Immerse in a new language lead us to re-signify many concepts. So we tend to forget how to use our previous language (hello C and processing). Old long term projects can aid us to remember them, and most importantly, let us guilty-free of that "abandonment" feel.
+
+## Resources
+
+There is some work before your "Hello world".
+
+### IDEs
+
+That a very personal choose. I tried Jupyter, iPython, Sublime, Spyder and PyCharm. I think the best approach is to try at least 2: Jupyter and PyCharm. Just give it a try.
+
+Jupyter is part of [anaconda](https://www.anaconda.com/) environment, so its very easy to make it run (if you don't have special needs like to change the root directory). It's the reference of interactive and notebook IDE. It focus in a exploratory coding, ideal to data wrangling and exploration. Its ideal to people that just need an analysis of a static dataset (for instance samples of a single campaign). The notebook style is perfect to make a accessible and reproducible code. however it is not ideal to work with real-time analysis and dynamic services.
+
+PyCharm is a [JetBrains](https://www.jetbrains.com) product. It have a free ("community") version with minor limitations (mainly web development, SQL support and a not so minor [scientific mode](https://www.jetbrains.com/help/pycharm/matplotlib-support.html)). It is not so easy to configure, but there are tutorials in YouTube. It is make for software developers. It have a wonderful debugging and refactor tools, and git integration. It is a familiar face to R Studio users. Its ideal to complex applications as numeric models, long pipelines and real-time analysis.
+
+iPython is a "proto-Jupyter", Spyder is a simpler PyCharm and Sublime is a notepad with dark-theme.
+
+### Supplementary programs
+
+Use [GitHub](https://guides.github.com/activities/hello-world/) to version control and anaconda (or [miniconda](https://docs.conda.io/en/latest/miniconda.html)) to create environments to each project you start.
+
+# Getting started
+
+I recommend you to enroll an [MOOC](https://www.mooc.org/) Python course (just don't pay the certificates) and [Wes McKinney's Python for Data Analysis book](https://www.amazon.com.br/dp/B075X4LT6K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) for reference (not that I've read other books to say its the best, but Wes is the [pandas](https://pandas.pydata.org/) author, so he knows what he is saying).
+
+I used the [Python course of my university's computer science department (PT-BR)](https://www.youtube.com/watch?v=WT_zCgSHSTQ&list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn) to get a soft start. After that, [Aaron Jack](https://www.youtube.com/channel/UCRLEADhMcb8WUdnQ5_Alk7g), [Tech With Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg) and [Jack of Some](https://www.youtube.com/channel/UCe6ABcJkH_Gso9HJOt4x9fg), YouTube channels helped me to keep my immersion and provided me a sense of accomplishment as I started to understand the details of the code that they discussed.
+
+These are some strange Python concepts for R users that needs some time on.
+
+## Pointers
+
+In R, if you assign a variable to another the value is copied from one to another, in Python it is more complicated.
+
+[Python variable are pointers](https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html). When you assign `a = 1`, `a` is an object pointer to the object `1`. Then, when you assign `b = a` you are pointing `b` to `a` to `1` so if you state `b = 2` you will change the "value" of `a` to `2`. So `a is b`. A good R user will feel and fear the potential chaos.
+
+## Side effects
+
+Another source of chaos are methods (functions) that modifies an outside object (variable) a.k.a. [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)). In R it is easy to control as the arguments passed to a function have its value copied into the function environment. However, in Python the arguments pass a reference to the object (a pointer). So if you alters the variable inside your function, it may alters the same outside. Here is an example from [dev0928](https://dev.to/dev0928/what-is-a-side-effect-of-a-function-in-python-36ei):
+
+``` {.python}
+def fn_side_effects(fruits):
+    print(f"Fruits before change - {fruits} id - {id(fruits)}")
+    fruits += ["pear", "banana"]
+    print(f"Fruits after change - {fruits} id - {id(fruits)}")
+
+fruit_list = ["apple", "orange"]
+print(f"Fruits List before function call - {fruit_list} id - {id(fruit_list)}")
+fn_side_effects(fruit_list)
+print(f"Fruits List after function call - {fruit_list} id - {id(fruit_list)}")
+
+# Output 
+Fruits List before function call - ['apple', 'orange'] id - 1904767477056
+Fruits before change - ['apple', 'orange'] id - 1904767477056
+Fruits after change - ['apple', 'orange', 'pear', 'banana'] id - 1904767477056
+Fruits List after function call - ['apple', 'orange', 'pear', 'banana'] id - 1904767477056
+```
+
+```{.python}
+def fn_no_side_effects(fruits):
+    print(f"Fruits before change - {fruits} id - {id(fruits)}")
+    fruits = fruits + ["pear", "banana"]
+    print(f"Fruits after change - {fruits} id - {id(fruits)}")
+
+fruit_list = ["apple", "orange"]
+print(f"Fruits List before function call - {fruit_list} id - {id(fruit_list)}")
+fn_no_side_effects(fruit_list)
+print(f"Fruits List after function call - {fruit_list} id - {id(fruit_list)}")
+
+# output
+Fruits List before function call - ['apple', 'orange'] id - 2611623765504
+Fruits before change - ['apple', 'orange'] id - 2611623765504
+Fruits after change - ['apple', 'orange', 'pear', 'banana'] id - 2611625160320
+Fruits List after function call - ['apple', 'orange'] id - 2611623765504
+```
+
+
+## Immutable objects
+
+Its a solution for the potential problems mentioned. We cant state `1 = 2` because integers are immutable objects. Once you create a immutable object, its state cannot be modified. The basic immutable objects in Python are ints, floats, strings, tuples, bools and frozensets. You can use these objects to secure your dataset against unwilling alterations and side effects.
+
+# Final thougts
+
+Transitioning to a new language demands time so you need to ponder if it really pays the time. Interesting, the things that takes more time to learn are the most familiar and basic ones.
+
+I will update the differences of R and Python my studies progresses. I will focus on numpy/pandas and tidyverse comparison. See ya!
