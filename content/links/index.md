@@ -83,3 +83,5 @@ editor_options:
 -   [The R Graph Gallery](https://www.r-graph-gallery.com/index.html)
 
 -   [jmv R package](https://www.jamovi.org/jmv/index.html)
+
+-   [R and Roll!](https://randroll.wordpress.com/)
