@@ -84,4 +84,4 @@ editor_options:
 
 -   [jmv R package](https://www.jamovi.org/jmv/index.html)
 
--   [R and Roll!](https://randroll.wordpress.com/)
+-   [R & Roll! cookbook](https://randroll.wordpress.com/)
