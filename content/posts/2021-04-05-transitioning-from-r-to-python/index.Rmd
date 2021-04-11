@@ -26,7 +26,7 @@ That question was answered a thousand times better than me. But, here comes the 
 
 ## Long live the Python
 
-Python have a giant scientific community, and so Fortran or R. What makes Python special is the other communities using it. It guarantee a long life and support to the language.
+[Python](https://pypl.github.io/PYPL.html?fbclid=IwAR1Krs7FYp36jMzs6I6Dn0p4GIFZqliBrav3X1m0FXeFcHTVnzjD2r-HKVw) have a giant scientific community, and so Fortran or R. What makes Python special is the other communities using it. It guarantee a long life and support to the language.
 
 There is a list of Python uses by [Upgrad](https://www.upgrad.com/blog/python-applications-in-real-world/#2_Game_Development):
 
@@ -50,7 +50,12 @@ Each one of this items has a whole community using and supporting Python. In spe
 Python is the most popular programming language science. It's [open source](https://opensource.org/osd), which matches with the [open science](https://www.fosteropenscience.eu/content/what-open-science-introduction) philosophy (like this site, read more [here](https://www.americanscientist.org/blog/macroscope/the-world-of-science-blogging)).
 
 <details>
-<summary>Code</summary>
+
+<summary>
+
+Code
+
+</summary>
 
 ```{r code, eval=FALSE}
 # see the categories here: https://bit.ly/3dz6UIt
@@ -69,6 +74,7 @@ gtrendsR::gtrends(keywordslist,
   theme_minimal() +
   theme(text = element_text(family = "JetBrains Mono", size = 22))
 ```
+
 </details>
 
 ```{r, echo = FALSE}
@@ -166,7 +172,7 @@ Fruits after change - ['apple', 'orange', 'pear', 'banana'] id - 1904767477056
 Fruits List after function call - ['apple', 'orange', 'pear', 'banana'] id - 1904767477056
 ```
 
-```{.python}
+``` {.python}
 def fn_no_side_effects(fruits):
     print(f"Fruits before change - {fruits} id - {id(fruits)}")
     fruits = fruits + ["pear", "banana"]
@@ -183,7 +189,6 @@ Fruits before change - ['apple', 'orange'] id - 2611623765504
 Fruits after change - ['apple', 'orange', 'pear', 'banana'] id - 2611625160320
 Fruits List after function call - ['apple', 'orange'] id - 2611623765504
 ```
-
 
 ## Immutable objects
 
