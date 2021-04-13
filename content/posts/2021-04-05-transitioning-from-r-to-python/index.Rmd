@@ -194,8 +194,52 @@ Fruits List after function call - ['apple', 'orange'] id - 2611623765504
 
 Its a solution for the potential problems mentioned. We cant state `1 = 2` because integers are immutable objects. Once you create a immutable object, its state cannot be modified. The basic immutable objects in Python are ints, floats, strings, tuples, bools and frozensets. You can use these objects to secure your dataset against unwilling alterations and side effects.
 
-# Final thoughts
+## Deepcopy
+
+The method `deepcopy` from `copy` is another solution. It makes a new place in memory when we use the attribution sign, for instance:
+
+``` {.python}
+class a:
+  def __init__(self):
+    name = 'a'
+
+inst1 = a()
+inst2 = inst1
+
+inst1.name
+Out[]:'a'
+
+inst2.name = 'b'
+inst2.name
+Out[]:'b'
+inst1.name
+Out[]:'b'
+```
+
+``` {.python}
+from copy import deepcopy
+
+class a:
+  def __init__(self):
+    name = 'a'
+
+inst1 = a()
+inst2 = deepcopy(inst1)
+
+inst1.name
+Out[]:'a'
+
+inst2.name = 'b'
+inst2.name
+Out[]:'b'
+inst1.name
+Out[]:'a'
+```
+
+# Thus...
 
 Transitioning to a new language demands time so you need to ponder if it really pays the time. Interesting, the things that takes more time to learn are the most familiar and basic ones.
+
+Special thanks to [Gabriel Perez](https://gabrielmpp.github.io/) for inspire me to use Python and to many other inspirations. And to present me to `deepcopy`.
 
 I will update the differences of R and Python my studies progresses. I will focus on numpy/pandas and tidyverse comparison. See ya!

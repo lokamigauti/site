@@ -160,9 +160,46 @@ Fruits List after function call - [&#39;apple&#39;, &#39;orange&#39;] id - 26116
 <h2>Immutable objects</h2>
 <p>Its a solution for the potential problems mentioned. We cant state <code>1 = 2</code> because integers are immutable objects. Once you create a immutable object, its state cannot be modified. The basic immutable objects in Python are ints, floats, strings, tuples, bools and frozensets. You can use these objects to secure your dataset against unwilling alterations and side effects.</p>
 </div>
+<div id="deepcopy" class="section level2">
+<h2>Deepcopy</h2>
+<p>The method <code>deepcopy</code> from <code>copy</code> is another solution. It makes a new place in memory when we use the attribution sign, for instance:</p>
+<pre class="python"><code>class a:
+  def __init__(self):
+    name = &#39;a&#39;
+
+inst1 = a()
+inst2 = inst1
+
+inst1.name
+Out[]:&#39;a&#39;
+
+inst2.name = &#39;b&#39;
+inst2.name
+Out[]:&#39;b&#39;
+inst1.name
+Out[]:&#39;b&#39;</code></pre>
+<pre class="python"><code>from copy import deepcopy
+
+class a:
+  def __init__(self):
+    name = &#39;a&#39;
+
+inst1 = a()
+inst2 = deepcopy(inst1)
+
+inst1.name
+Out[]:&#39;a&#39;
+
+inst2.name = &#39;b&#39;
+inst2.name
+Out[]:&#39;b&#39;
+inst1.name
+Out[]:&#39;a&#39;</code></pre>
 </div>
-<div id="final-thoughts" class="section level1">
-<h1>Final thoughts</h1>
+</div>
+<div id="thus" class="section level1">
+<h1>Thus…</h1>
 <p>Transitioning to a new language demands time so you need to ponder if it really pays the time. Interesting, the things that takes more time to learn are the most familiar and basic ones.</p>
+<p>Special thanks to <a href="https://gabrielmpp.github.io/">Gabriel Perez</a> for inspire me to use Python and to many other inspirations. And to present me to <code>deepcopy</code>.</p>
 <p>I will update the differences of R and Python my studies progresses. I will focus on numpy/pandas and tidyverse comparison. See ya!</p>
 </div>
