@@ -18,7 +18,7 @@ draft: no
 <h1>Why Python?</h1>
 <p>That question was answered a thousand times better than me. But, here comes the highlights and my personal motivations.</p>
 <div id="long-live-the-python" class="section level2">
-<h2>Long live the Python</h2>
+<h2>1.1. Long live the Python</h2>
 <p><a href="https://pypl.github.io/PYPL.html?fbclid=IwAR1Krs7FYp36jMzs6I6Dn0p4GIFZqliBrav3X1m0FXeFcHTVnzjD2r-HKVw">Python</a> have a giant scientific community, and so Fortran or R. What makes Python special is the other communities using it. It guarantee a long life and support to the language.</p>
 <p>There is a list of Python uses by <a href="https://www.upgrad.com/blog/python-applications-in-real-world/#2_Game_Development">Upgrad</a>:</p>
 <ol style="list-style-type: decimal">
@@ -38,7 +38,7 @@ draft: no
 <p>Each one of this items has a whole community using and supporting Python. In special, AI/ML and Business brings strong economic motivations to the language support. This list also shows the “base” Python`s flexibility.</p>
 </div>
 <div id="python-and-science" class="section level2">
-<h2>Python and science</h2>
+<h2>1.2. Python and science</h2>
 <p>Python is the most popular programming language science. It’s <a href="https://opensource.org/osd">open source</a>, which matches with the <a href="https://www.fosteropenscience.eu/content/what-open-science-introduction">open science</a> philosophy (like this site, read more <a href="https://www.americanscientist.org/blog/macroscope/the-world-of-science-blogging">here</a>).</p>
 <details>
 <summary>
@@ -69,7 +69,7 @@ gtrendsR::gtrends(keywordslist,
 <h1>Preparation phase</h1>
 <p>What I need to do before transitioning?</p>
 <div id="psycological-aspects" class="section level2">
-<h2>Psycological aspects</h2>
+<h2>2.1. Psycological aspects</h2>
 <p>Changing a programming language is like moving to another country. All the things that you thought were fundamental is different in some way. It causes a silent fear, that manifests itself as the postponing in your transition. So you need the following aspects to start and maintain the process:</p>
 <ol style="list-style-type: decimal">
 <li>To feel inspired by the “Why”</li>
@@ -78,36 +78,36 @@ gtrendsR::gtrends(keywordslist,
 <li>A long-term project in your old language</li>
 </ol>
 <div id="inspiration" class="section level3">
-<h3>Inspiration</h3>
+<h3>2.1.1. Inspiration</h3>
 <p>Python is beautiful. I’m a good nerd and appreciate a pretty code. And I know <a href="https://qntm.org/clean">pretty not necessarily implies in good code</a>, but in the world of science, it can make a code <a href="https://www.nature.com/articles/sdata201618">FAIR</a>. The sense of community of Python is part of its beauty. The development of huge libraries based on huge libraries based on Python may seem problematic at fist glance, but it allows me to use them together and synergistically (who never adapted an obscure function to be dplyr-compatible?).</p>
 <p>So, if you love an aspect of Python, embrace it. You will need to remember that love in the near future.</p>
 </div>
 <div id="learning-support" class="section level3">
-<h3>Learning support</h3>
+<h3>2.1.2. Learning support</h3>
 <p>Every computational tool have a “get started” item in the manual nowadays. We live in an anxiety inducer society, so we need to see results fast and easy. And a good way to “get started” with python is to watch some content about the basics until the OOP aspect. It’s a relief when little “xenothings” like tuples and dicts behave as expected. So you can get confidence to explore further. Cookbooks are recommended too. But I wouldn’t recommend to take a Pandas hands-on as your first contact with Python. You may succeed to use it, but things can get unstable as you get the lead on your analysis. I’ll regret if you jump over the basics soon than expected.</p>
 </div>
 <div id="urgency-and-commitment" class="section level3">
-<h3>Urgency and commitment</h3>
+<h3>2.1.3. Urgency and commitment</h3>
 <p>It’s easy to return to your comfort zone. You certainly have a lot of demands, as your life don’t wait for you to finish your transition. It is harsh, but you need a “need” to use Python. And with R (or Matlab, or Stata, Jamovi, you name it) you can do the same as you would do in Pyhton, but faster. So, the “need” needs to came from yourself. Make a commitment to only use Python in future projects from now on. The trick is defining what is a current project and what is a future one.</p>
 <p>I define current project as “codes in current development or planned to interact directly with that ones”. Every single unplanned analysis or application will be made in Python. You probably made the same in the past, maybe unconsciously. Now is not different.</p>
 </div>
 <div id="old-language-projects" class="section level3">
-<h3>Old language projects</h3>
+<h3>2.1.4. Old language projects</h3>
 <p>Immersing in a new language lead us to re-signify many concepts. So we tend to forget how to use our previous language (hello C and processing). Old long term projects can aid us to remember them, and most importantly, leave us guilty-free of that “abandonment” feel.</p>
 </div>
 </div>
 <div id="resources" class="section level2">
-<h2>Resources</h2>
+<h2>2.2. Resources</h2>
 <p>There is some work before your “Hello world”.</p>
 <div id="ides" class="section level3">
-<h3>IDEs</h3>
+<h3>2.2.1. IDEs</h3>
 <p>That a very personal choose. I tried Jupyter, iPython, Sublime, Spyder and PyCharm. I think the best approach is to try at least 2: Jupyter and PyCharm. Just give it a try.</p>
 <p>Jupyter is part of <a href="https://www.anaconda.com/">anaconda</a> environment, so its very easy to make it run (if you don’t have special needs like to change the root directory). It’s the reference of interactive and notebook IDE. It focus in a exploratory coding, ideal to data wrangling and exploration. Its ideal to people that just need an analysis of a static dataset (for instance samples of a single campaign). The notebook style is perfect to make a accessible and reproducible code. however it is not ideal to work with real-time analysis and dynamic services.</p>
 <p>PyCharm is a <a href="https://www.jetbrains.com">JetBrains</a> product. It has a free (“community”) version with minor limitations (mainly web development, SQL support and a not so minor <a href="https://www.jetbrains.com/help/pycharm/matplotlib-support.html">scientific mode</a>). It is not so easy to configure, but there are tutorials in YouTube. It is make for software developers. It have a wonderful debugging and refactor tools, and git integration. It is a familiar face to R Studio users. Its ideal to complex applications as numeric models, long pipelines and real-time analysis.</p>
 <p>iPython is a “proto-Jupyter”, Spyder is a simpler PyCharm and Sublime is a notepad with dark-theme.</p>
 </div>
 <div id="supplementary-programs" class="section level3">
-<h3>Supplementary programs</h3>
+<h3>2.2.2. Supplementary programs</h3>
 <p>Use <a href="https://guides.github.com/activities/hello-world/">GitHub</a> to version control and anaconda (or <a href="https://docs.conda.io/en/latest/miniconda.html">miniconda</a>) to create environments to each project you start.</p>
 </div>
 </div>
@@ -118,12 +118,12 @@ gtrendsR::gtrends(keywordslist,
 <p>I used the <a href="https://www.youtube.com/watch?v=WT_zCgSHSTQ&amp;list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn">Python course of my university’s computer science department (PT-BR)</a> to get a soft start. After that, <a href="https://www.youtube.com/channel/UCRLEADhMcb8WUdnQ5_Alk7g">Aaron Jack</a>, <a href="https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg">Tech With Tim</a> and <a href="https://www.youtube.com/channel/UCe6ABcJkH_Gso9HJOt4x9fg">Jack of Some</a>, YouTube channels helped me to keep my immersion and provided me a sense of accomplishment as I started to understand the details of the code that they discussed.</p>
 <p>These are some strange Python concepts for R users that needs some time on.</p>
 <div id="pointers" class="section level2">
-<h2>Pointers</h2>
+<h2>3.1. Pointers</h2>
 <p>In R, if you assign a variable to another the value is copied from one to another, in Python it is more complicated.</p>
 <p><a href="https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html">Python variable are pointers</a>. When you assign <code>a = 1</code>, <code>a</code> is an object pointer to the object <code>1</code>. Then, when you assign <code>b = a</code> you are pointing <code>b</code> to <code>a</code> to <code>1</code> so if you state <code>b = 2</code> you will change the “value” of <code>a</code> to <code>2</code>. So <code>a is b</code>. A good R user will feel and fear the potential chaos.</p>
 </div>
 <div id="side-effects" class="section level2">
-<h2>Side effects</h2>
+<h2>3.2. Side effects</h2>
 <p>Another source of chaos are methods (functions) that modifies an outside object (variable) a.k.a. <a href="https://en.wikipedia.org/wiki/Side_effect_(computer_science)">side effects</a>. In R it is easy to control as the arguments passed to a function have its value copied into the function environment. However, in Python the arguments pass a reference to the object (a pointer). So if you alters the variable inside your function, it may alters the same outside. Here is an example from <a href="https://dev.to/dev0928/what-is-a-side-effect-of-a-function-in-python-36ei">dev0928</a>:</p>
 <pre class="python"><code>def fn_side_effects(fruits):
     print(f&quot;Fruits before change - {fruits} id - {id(fruits)}&quot;)
@@ -157,11 +157,11 @@ Fruits after change - [&#39;apple&#39;, &#39;orange&#39;, &#39;pear&#39;, &#39;b
 Fruits List after function call - [&#39;apple&#39;, &#39;orange&#39;] id - 2611623765504</code></pre>
 </div>
 <div id="immutable-objects" class="section level2">
-<h2>Immutable objects</h2>
+<h2>3.3. Immutable objects</h2>
 <p>Its a solution for the potential problems mentioned. We cant state <code>1 = 2</code> because integers are immutable objects. Once you create a immutable object, its state cannot be modified. The basic immutable objects in Python are ints, floats, strings, tuples, bools and frozensets. You can use these objects to secure your dataset against unwilling alterations and side effects.</p>
 </div>
 <div id="deepcopy" class="section level2">
-<h2>Deepcopy</h2>
+<h2>3.4. Deepcopy</h2>
 <p>The method <code>deepcopy</code> from <code>copy</code> is another solution. It makes a new place in memory when we use the attribution sign, for instance:</p>
 <pre class="python"><code>class a:
   def __init__(self):
