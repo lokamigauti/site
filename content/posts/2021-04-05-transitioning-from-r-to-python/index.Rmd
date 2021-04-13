@@ -24,7 +24,7 @@ This series will accompany me as I re-learn Python. This post covers the basic: 
 
 That question was answered a thousand times better than me. But, here comes the highlights and my personal motivations.
 
-## 1.1. Long live the Python
+## Long live the Python
 
 [Python](https://pypl.github.io/PYPL.html?fbclid=IwAR1Krs7FYp36jMzs6I6Dn0p4GIFZqliBrav3X1m0FXeFcHTVnzjD2r-HKVw) have a giant scientific community, and so Fortran or R. What makes Python special is the other communities using it. It guarantee a long life and support to the language.
 
@@ -45,7 +45,7 @@ There is a list of Python uses by [Upgrad](https://www.upgrad.com/blog/python-ap
 
 Each one of this items has a whole community using and supporting Python. In special, AI/ML and Business brings strong economic motivations to the language support. This list also shows the "base" Python\`s flexibility.
 
-## 1.2. Python and science
+## Python and science
 
 Python is the most popular programming language science. It's [open source](https://opensource.org/osd), which matches with the [open science](https://www.fosteropenscience.eu/content/what-open-science-introduction) philosophy (like this site, read more [here](https://www.americanscientist.org/blog/macroscope/the-world-of-science-blogging)).
 
@@ -89,7 +89,7 @@ The support to Object Oriented Programming (OOP), [Functional Programming](https
 
 What I need to do before transitioning?
 
-## 2.1. Psycological aspects
+## Psycological aspects
 
 Changing a programming language is like moving to another country. All the things that you thought were fundamental is different in some way. It causes a silent fear, that manifests itself as the postponing in your transition. So you need the following aspects to start and maintain the process:
 
@@ -98,31 +98,31 @@ Changing a programming language is like moving to another country. All the thing
 3.  An urgency to change
 4.  A long-term project in your old language
 
-### 2.1.1. Inspiration
+### Inspiration
 
 Python is beautiful. I'm a good nerd and appreciate a pretty code. And I know [pretty not necessarily implies in good code](https://qntm.org/clean), but in the world of science, it can make a code [FAIR](https://www.nature.com/articles/sdata201618). The sense of community of Python is part of its beauty. The development of huge libraries based on huge libraries based on Python may seem problematic at fist glance, but it allows me to use them together and synergistically (who never adapted an obscure function to be dplyr-compatible?).
 
 So, if you love an aspect of Python, embrace it. You will need to remember that love in the near future.
 
-### 2.1.2. Learning support
+### Learning support
 
 Every computational tool have a "get started" item in the manual nowadays. We live in an anxiety inducer society, so we need to see results fast and easy. And a good way to "get started" with python is to watch some content about the basics until the OOP aspect. It's a relief when little "xenothings" like tuples and dicts behave as expected. So you can get confidence to explore further. Cookbooks are recommended too. But I wouldn't recommend to take a Pandas hands-on as your first contact with Python. You may succeed to use it, but things can get unstable as you get the lead on your analysis. I'll regret if you jump over the basics soon than expected.
 
-### 2.1.3. Urgency and commitment
+### Urgency and commitment
 
 It's easy to return to your comfort zone. You certainly have a lot of demands, as your life don't wait for you to finish your transition. It is harsh, but you need a "need" to use Python. And with R (or Matlab, or Stata, Jamovi, you name it) you can do the same as you would do in Pyhton, but faster. So, the "need" needs to came from yourself. Make a commitment to only use Python in future projects from now on. The trick is defining what is a current project and what is a future one.
 
 I define current project as "codes in current development or planned to interact directly with that ones". Every single unplanned analysis or application will be made in Python. You probably made the same in the past, maybe unconsciously. Now is not different.
 
-### 2.1.4. Old language projects
+### Old language projects
 
 Immersing in a new language lead us to re-signify many concepts. So we tend to forget how to use our previous language (hello C and processing). Old long term projects can aid us to remember them, and most importantly, leave us guilty-free of that "abandonment" feel.
 
-## 2.2. Resources
+## Resources
 
 There is some work before your "Hello world".
 
-### 2.2.1. IDEs
+### IDEs
 
 That a very personal choose. I tried Jupyter, iPython, Sublime, Spyder and PyCharm. I think the best approach is to try at least 2: Jupyter and PyCharm. Just give it a try.
 
@@ -132,7 +132,7 @@ PyCharm is a [JetBrains](https://www.jetbrains.com) product. It has a free ("com
 
 iPython is a "proto-Jupyter", Spyder is a simpler PyCharm and Sublime is a notepad with dark-theme.
 
-### 2.2.2. Supplementary programs
+### Supplementary programs
 
 Use [GitHub](https://guides.github.com/activities/hello-world/) to version control and anaconda (or [miniconda](https://docs.conda.io/en/latest/miniconda.html)) to create environments to each project you start.
 
@@ -144,13 +144,13 @@ I used the [Python course of my university's computer science department (PT-BR)
 
 These are some strange Python concepts for R users that needs some time on.
 
-## 3.1. Pointers
+## Pointers
 
 In R, if you assign a variable to another the value is copied from one to another, in Python it is more complicated.
 
 [Python variable are pointers](https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html). When you assign `a = 1`, `a` is an object pointer to the object `1`. Then, when you assign `b = a` you are pointing `b` to `a` to `1` so if you state `b = 2` you will change the "value" of `a` to `2`. So `a is b`. A good R user will feel and fear the potential chaos.
 
-## 3.2. Side effects
+## Side effects
 
 Another source of chaos are methods (functions) that modifies an outside object (variable) a.k.a. [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)). In R it is easy to control as the arguments passed to a function have its value copied into the function environment. However, in Python the arguments pass a reference to the object (a pointer). So if you alters the variable inside your function, it may alters the same outside. Here is an example from [dev0928](https://dev.to/dev0928/what-is-a-side-effect-of-a-function-in-python-36ei):
 
@@ -190,11 +190,11 @@ Fruits after change - ['apple', 'orange', 'pear', 'banana'] id - 2611625160320
 Fruits List after function call - ['apple', 'orange'] id - 2611623765504
 ```
 
-## 3.3. Immutable objects
+## Immutable objects
 
 Its a solution for the potential problems mentioned. We cant state `1 = 2` because integers are immutable objects. Once you create a immutable object, its state cannot be modified. The basic immutable objects in Python are ints, floats, strings, tuples, bools and frozensets. You can use these objects to secure your dataset against unwilling alterations and side effects.
 
-## 3.4. Deepcopy
+## Deepcopy
 
 The method `deepcopy` from `copy` is another solution. It makes a new place in memory when we use the attribution sign, for instance:
 
