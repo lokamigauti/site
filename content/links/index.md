@@ -88,6 +88,8 @@ editor_options:
 5.  [Essentials of
     Paleomagnetism](https://earthref.org/MagIC/books/Tauxe/Essentials/)
 
+6.  [Stats for Data Science](https://dtkaplan.github.io/SDS-book/)
+
 ## R:
 
 -   [The R Graph Gallery](https://www.r-graph-gallery.com/index.html)
