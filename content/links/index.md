@@ -1,6 +1,6 @@
 ---
 date: "2016-08-24 17:51:42"
-title: About me
+title: Links
 editor_options: 
   markdown: 
     wrap: 72
@@ -30,15 +30,20 @@ editor_options:
     particulate matter. *Science of the Total Environment*,
     *752*, 141828. DOI:
     [10.1016/j.scitotenv.2020.141828](https://doi.org/10.1016/j.scitotenv.2020.141828 "Persistent link using digital object identifier")
-2.  Qinghua Zhang, Dawei Lu, Dingyi Wang, Xuezhi Yang, Peijie Zuo, Hang
+2.  Leite AdS, Léon J-F, Macouin M, Rousse S, Trindade RIFd, Proietti A,
+    Drigo L, Antonio PYJ, Akpo AB, Yoboué V, Liousse C. (2021). PM2.5
+    Magnetic Properties in Relation to Urban Combustion Sources in
+    Southern West Africa. *Atmosphere*. 2021; 12(4):496. DOI:
+    <https://doi.org/10.3390/atmos12040496>
+3.  Qinghua Zhang, Dawei Lu, Dingyi Wang, Xuezhi Yang, Peijie Zuo, Hang
     Yang, Qiang Fu, Qian Liu, and Guibin Jiang (2020) Environmental
     Science & Technology *54* (15), 9274-9284 DOI:
     [10.1021/acs.est.0c01841](https://pubs.acs.org/doi/abs/10.1021/acs.est.0c01841?casa_token=6bQJ9NDe6c4AAAAA:2Airmk-lTb3TE-R7-PcPn9BBF6leX10XhBknl7zwUG3ca_owJ-JrCrxyWAPV-t6C9rDRTFB6RXq4_Wvc)
-3.  Mathias, G. L., Roud, S. C., Chiessi, C. M., Campos, M. C., Dias, B.
-    B., Santos, T. P., ... & Maher, B. A. A multi‐proxy approach to
-    unravel late Pleistocene sediment flux and bottom water conditions
-    in the Western South Atlantic Ocean. *Paleoceanography and
-    Paleoclimatology*, e2020PA004058. DOI:
+4.  Mathias, G. L., Roud, S. C., Chiessi, C. M., Campos, M. C., Dias, B.
+    B., Santos, T. P., ... & Maher, B. A. A (2021). multi‐proxy approach
+    to unravel late Pleistocene sediment flux and bottom water
+    conditions in the Western South Atlantic Ocean. *Paleoceanography
+    and Paleoclimatology*, e2020PA004058. DOI:
     [10.1029/2020PA004058](https://doi.org/10.1029/2020PA004058)
 
 ## Recommended articles:
