@@ -55,18 +55,31 @@ editor_options:
 
 ## Last published:
 
-1.  Lorenz et al., Viver no futuro : ainda tem clima para isso?
+1.  Nogueira, T., Kamigauti, L. Y., Pereira, G. M., ... & Andrade, M. F.
+    (2021). Evolution of Vehicle Emission Factors in a Megacity Affected
+    by Extensive Biofuel Use: Results of Tunnel Measurements in São
+    Paulo, Brazil. *Environmental Science and Technology*. DOI:
+    [10.1021/acs.est.1c01006](https://doi.org/10.1021/acs.est.1c01006)
+
+2.  Souto-Oliveira, C. E., Kamigauti, L. Y., Andrade, M. D. F., &
+    Babinki, M. (2021). Improving source apportionment of urban aerosol
+    using Multi-Isotopic Fingerprints (MIF) and Positive Matrix
+    Factorization (PMF): cross-validation and new insights. *Frontiers
+    in Environmental Science*, *9*, 69. DOI:
+    [10.3389/fenvs.2021.623915](https://doi.org/10.3389/fenvs.2021.623915)
+
+3.  Lorenz et al. (2021). Viver no futuro : ainda tem clima para isso?
     aquecimento global, seus impactos e a revolução dos artrópodes. *Ed.
     dos Autores.* DOI:
     [10.13140/RG.2.2.36341.50400](http://dx.doi.org/10.13140/RG.2.2.36341.50400)
 
-2.  Kamigauti, L. Y., Perez, G. M. P., Souto-Oliveira, C. E., Cowdery,
+4.  Kamigauti, L. Y., Perez, G. M. P., Souto-Oliveira, C. E., Cowdery,
     E., Saldiva, P. H. N., & de Fatima Andrade, M. (2021). Exploring the
     short-term role of particulate matter in the COVID-19 outbreak in
     USA cities. *medRxiv*. DOI:
     [10.1101/2021.03.09.21253212](https://doi.org/10.1101/2021.03.09.21253212)
 
-3.  Locosselli, G. M., Moreira, T. C. L., Chacón-Madrid, K., Arruda, M.
+5.  Locosselli, G. M., Moreira, T. C. L., Chacón-Madrid, K., Arruda, M.
     A. Z., de Camargo, E. P., Kamigauti, L. Y., ... & Buckeridge, M. S.
     (2020). Spatial-temporal variability of metal pollution across an
     industrial district, evidencing the environmental inequality in Sao
